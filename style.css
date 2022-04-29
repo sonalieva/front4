@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'news-font';
+    height:1500px
+}
+#news{
+
+
+}
+
+#news .news-item{
+    width: 300px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+#news .news-item img{
+    max-width: 100%;
+    height: 200px;
+}
+#news .news-item .title{
+    color: #13317F;
+    font-size: 26px;
+    padding: 16px;
+    height: 165px;
+}
+
+#news .news-item .buttons{
+
+}
+
+#news .news-item .buttons .btn{
+    margin-left: -4px;
+    background: #f2f2f2;
+    display: inline-block;
+    width: calc(100%/3);
+    padding: 8px 0px;
+    text-align: center;
+    color: hsl(0, 5%, 30%);
+    font-size: 22px;
+    border: 1px solid #dddddd
+}
+#news .news-item .buttons .btn:first-child{
+    margin-left: 0;
+}
+.news-item .date-time{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    position: absolute;
+    top: 120px;;
+    left: 0;
+}
+.news-item .date-time .date{
+    background-color: #1895a0ce;
+    padding: 6px 15px;
+}
+
+.news-item .date-time .date .day{
+    font-size: 20px;
+}
+.news-item .date-time .date .month{
+    font-size: 14px;
+}
+.news-item .date-time .number{
+    background-color: #1895a0ce;
+    padding: 6px 15px;
+}
+
+.news-item .date-time .time{
+    background-color: #334564d1;
+    font-size: 14px;
+    padding: 6px 15px;
+}
